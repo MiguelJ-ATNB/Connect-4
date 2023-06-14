@@ -1,0 +1,28 @@
+#test-grid{
+    margin: 0;
+    display: flex;
+    background-color: rgba(15, 99, 255, 0.8);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    height: 635px;
+    width: 745px;
+    flex-wrap: wrap;
+}
+
+.special {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+    border-radius: 100%;
+}
